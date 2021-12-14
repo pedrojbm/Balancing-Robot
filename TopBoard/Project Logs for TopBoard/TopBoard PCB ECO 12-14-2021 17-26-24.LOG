@@ -1,0 +1,151 @@
+Removed Pin From Net: NetName=RX Pin=MD1-35
+Removed Pin From Net: NetName=RX Pin=U1-3
+Change Component Comment : Designator=R? Old Comment=1k New Comment=ERJ-3GEYJ102V
+Change Component Comment : Designator=C4 Old Comment=100nF New Comment=06035C104JAT2A
+Change Component Comment : Designator=C5 Old Comment=100nF New Comment=06035C104JAT2A
+Change Component Comment : Designator=C7 Old Comment=100nF New Comment=06035C104JAT2A
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=LS? NewDesignator=LS1
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Added Component: Designator=C4(CAP POL 1206_3216)
+Add component (AddParameter): Name = "Capacitance"; Value = "100µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/F93.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/avx-corporation/F930J107KAA/478-8152-1-ND/4005870"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "2Ohm @ 100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height - Seated (Max)"; Value = "0.071" (1.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "09/02/2020 01:15:59"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime @ Temp."; Value = "2000 Hrs @ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Size Code"; Value = "A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "F930J107KAA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "151"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.19"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "F93"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.126" L x 0.063" W (3.20mm x 1.60mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-8152-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Molded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=R1(FP-CRCW0603-e3-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.02inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "200ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "7.1E-05oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.033inch"; VariantName = "[No Variations]"
+Added Component: Designator=R2(FP-CRCW0603-e3-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.02inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1.1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "200ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "7.1E-05oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.033inch"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TestPoint)
+Added Component: Designator=TP2(TestPoint)
+Added Component: Designator=TP3(TestPoint)
+Added Component: Designator=TP4(TestPoint)
+Added Component: Designator=TP5(TestPoint)
+Added Component: Designator=TP6(TestPoint)
+Added Component: Designator=TP7(TestPoint)
+Added Component: Designator=TP8(TestPoint)
+Added Component: Designator=TP9(TestPoint)
+Added Component: Designator=TP10(TestPoint)
+Added Pin To Net: NetName=+11V1 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=RX Pin=MD1-34
+Added Pin To Net: NetName=+3V3 Pin=R1-1
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Pin To Net: NetName=+3V3 Pin=R2-1
+Added Pin To Net: NetName=SCL Pin=R2-2
+Added Pin To Net: NetName=+3V3 Pin=TP1-1
+Added Pin To Net: NetName=SDA Pin=TP2-1
+Added Pin To Net: NetName=SCL Pin=TP3-1
+Added Pin To Net: NetName=RX Pin=TP4-1
+Added Pin To Net: NetName=+3V3 Pin=TP6-1
+Added Pin To Net: NetName=5V_USB Pin=TP7-1
+Added Pin To Net: NetName=GND Pin=TP8-1
+Added Pin To Net: NetName=D_P Pin=TP9-1
+Added Pin To Net: NetName=GND Pin=TP10-1
+Added Pin To Net: NetName=RX Pin=U1-2
+Change Net Name : Old Net Name=NetLS?_1 New Net Name=NetLS1_1
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR6_2
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR7_2
+Added Member To Class: ClassName=Motor Drivers A4988 Member=Component C4 100µF
+Added Member To Class: ClassName=USBToTTL Member=Component D3 SMA 5.0V
+Added Member To Class: ClassName=ESP32, LED and Buttoms Member=Component R1 1k1
+Added Member To Class: ClassName=ESP32, LED and Buttoms Member=Component R7 470 Ohms
+Added Member To Class: ClassName=ESP32, LED and Buttoms Member=Component TP1 Test point
+Added Member To Class: ClassName=ESP32, LED and Buttoms Member=Component TP2 Test point
+Added Member To Class: ClassName=ESP32, LED and Buttoms Member=Component TP3 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP4 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP5 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP6 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP7 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP8 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP9 Test point
+Added Member To Class: ClassName=Power Member=Component TP10 Test point

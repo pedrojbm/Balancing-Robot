@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=TopBoard Member=R2
+Added Member To Class: ClassName=TopBoard Member=Component R1 1k
+Added Member To Class: ClassName=ESP32 Member=Component R3 12 kOhms
+Added Member To Class: ClassName=ESP32 Member=Component R4 470 Ohms
+Added Member To Class: ClassName=ESP32 Member=Component R5 470 Ohms
+Added Member To Class: ClassName=USBToTTL Member=Component R7 12 kOhms

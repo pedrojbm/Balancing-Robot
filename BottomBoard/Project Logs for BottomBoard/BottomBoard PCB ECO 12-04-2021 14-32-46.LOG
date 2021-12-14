@@ -1,0 +1,8 @@
+Added Component: Designator=U?(A4988)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet carrier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.robotshop.com/media/files/pdf/datasheet-1182.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet A4988"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=BottomBoard Member=Component J? IRREMOTE_HDR
+Added Member To Class: ClassName=BottomBoard Member=Component J? IMU_10DOF_HDR
+Added Member To Class: ClassName=BottomBoard Member=Component U? A4988

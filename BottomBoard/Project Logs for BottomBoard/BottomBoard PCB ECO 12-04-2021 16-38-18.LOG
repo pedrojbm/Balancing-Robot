@@ -1,0 +1,43 @@
+Added Component: Designator=J?(AVX 9296004202806)
+Add component (AddParameter): Name = "Board-Side Pitch"; Value = "0.118" (3.00mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cable Pitch"; Value = "0.118" (3.00mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cable Termination"; Value = "Poke-In"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/PHLPHorizontal_00-9296.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/avx-corporation/009296004202906/478-9535-1-ND/5161729"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Individual Wires"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Closed End"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "05/01/2020 07:30:43"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "009296004202906"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.32"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "9296"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-9535-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge"; Value = "20-26 AWG"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=BottomBoard Member=Component J? BM04B-SRSS-TB(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? BM04B-SURS-TF(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? SM04B-SURS-TF(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? B4B-PH-K-S(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? SM04B-SRSS-TB(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? BM04B-SRSS-TBT(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? B4B-XH-A(LF)(SN)
+Added Member To Class: ClassName=BottomBoard Member=Component J? 009296004202906
+Added Member To Class: ClassName=BottomBoard Member=Component J? 0022272041
+Added Member To Class: ClassName=BottomBoard Member=Component J? DF13-4P-1.25H(75)
+Added Member To Class: ClassName=BottomBoard Member=Component J? 282834-4
+Added Member To Class: ClassName=BottomBoard Member=Component J? OQ0432510000G
+Added Member To Class: ClassName=BottomBoard Member=Component J? 691508110304
+Added Member To Class: ClassName=BottomBoard Member=Component J? SM04B-GHS-TB(LF)(SN)-
+Added Member To Class: ClassName=BottomBoard Member=Component J? 0395021004
+Added Member To Class: ClassName=BottomBoard Member=Component J? DF13A-4P-1.25H(75)

@@ -1,0 +1,19 @@
+Change Physical Footprint: Designator=C1 Old Footprint=CAP POL 1206_3216 New Footprint=CAP POL 1206_3216
+Change Physical Footprint: Designator=C3 Old Footprint=CAP 0603_1608 New Footprint=CAP 0603_1608
+Change Physical Footprint: Designator=C6 Old Footprint=CAP 0603_1608 New Footprint=CAP 0603_1608
+Change Physical Footprint: Designator=D1 Old Footprint=LED 0603_1608 BLUE New Footprint=LED 0603_1608 BLUE
+Change Physical Footprint: Designator=J1 Old Footprint=HDRV4W50P0X200_1X4_800X200X525P New Footprint=HDRV4W50P0X200_1X4_800X200X525P
+Change Physical Footprint: Designator=J2 Old Footprint=HDRV4W50P0X200_1X4_800X200X525P New Footprint=HDRV4W50P0X200_1X4_800X200X525P
+Change Physical Footprint: Designator=J5 Old Footprint=OLED_guarreta New Footprint=OLED_guarreta
+Change Physical Footprint: Designator=J6 Old Footprint=IMU_GUARRETA New Footprint=IMU_GUARRETA
+Change Physical Footprint: Designator=J7 Old Footprint=IRremote_guarreta New Footprint=IRremote_guarreta
+Change Physical Footprint: Designator=R1 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R2 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R3 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R4 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R5 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R6 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=R7 Old Footprint=RES 0603_1608 New Footprint=RES 0603_1608
+Change Physical Footprint: Designator=U1 Old Footprint=SOIC127P600X180-16N New Footprint=SOIC127P600X180-16N
+Change Physical Footprint: Designator=U2 Old Footprint=A4988 New Footprint=A4988
+Change Physical Footprint: Designator=U3 Old Footprint=A4988 New Footprint=A4988

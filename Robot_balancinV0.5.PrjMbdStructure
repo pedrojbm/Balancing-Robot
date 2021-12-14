@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=Robot_balancinMBD.MbsDoc|Kind=Multi-board Schematic Module|Designator=Bottom Board|Source=BottomBoard\BottomBoard.PrjPcb
+Record=SubProject|SourceDocument=Robot_balancinMBD.MbsDoc|ProjectPath=BottomBoard\BottomBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Robot_balancinMBD.MbsDoc|Kind=Multi-board Schematic Module|Designator=Top Board|Source=TopBoard\TopBoard.PrjPcb
+Record=SubProject|SourceDocument=Robot_balancinMBD.MbsDoc|ProjectPath=TopBoard\TopBoard.PrjPcb

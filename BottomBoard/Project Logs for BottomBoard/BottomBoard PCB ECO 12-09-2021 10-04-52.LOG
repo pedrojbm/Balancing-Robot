@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetJ?_1 Pin=P?-5
+Removed Pin From Net: NetName=NetJ?_2 Pin=P?-6
+Change Component Footprint: Designator=J? Old Footprint=MOLEX KK 0022272021 New Footprint=M20-9950245
+Change Component Comment : Designator=J? Old Comment=0022272021 New Comment=M20-9950245
+Change component parameters: Designator = "J?" ("J?"); Footprint = "MOLEX KK 0022272021"; UniqueID = "\BBEUMQDK" ("\BBEUMQDK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ?_2 Pin=P?-5
+Added Pin To Net: NetName=NetJ?_1 Pin=P?-6
+Added Member To Class: ClassName=BottomBoard Member=Component P? BMS3S10A
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil
+PCB-ECO: Change Pad Pin/Pkg Length: Old=393.701mil New=0mil

@@ -1,0 +1,3 @@
+Change Physical Footprint: Designator=BT Old Footprint=BAT_BK-18650-PC6 New Footprint=BAT_BK-18650-PC6
+Change Physical Footprint: Designator=J? Old Footprint=MOLEX KK 0022272021 New Footprint=MOLEX KK 0022272021
+Change Physical Footprint: Designator=P? Old Footprint=BMS New Footprint=BMS

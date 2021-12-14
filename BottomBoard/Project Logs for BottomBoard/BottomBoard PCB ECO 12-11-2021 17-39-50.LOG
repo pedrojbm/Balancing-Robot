@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=GND Pin=BT-3-
+Removed Member From Class: ClassName=BottomBoard Member=BT
+Removed Member From Class: ClassName=BottomBoard Member=J?
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Added Component: Designator=BT1(BAT_BK-18650-PC6)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "MPD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BK-18650-PC6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BK-18650-PC6/MPD/view-part/4480464/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(M20-9950245)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BT1-3-
+Added Pin To Net: NetName=+3V7 Pin=BT1-2-
+Added Pin To Net: NetName=+3V7 Pin=BT1-3+
+Added Pin To Net: NetName=+3V7 Pin=P1-4
+Added Net: Name=+3V7
+Added Pin To Net: NetName=+7V4 Pin=BT1-1-
+Added Pin To Net: NetName=+7V4 Pin=BT1-2+
+Added Pin To Net: NetName=+7V4 Pin=P1-2
+Added Net: Name=+7V4
+Added Pin To Net: NetName=+11V1 Pin=BT1-1+
+Added Pin To Net: NetName=+11V1 Pin=P1-1
+Added Net: Name=+11V1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=P1-6
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=P1-5
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=V_Cargador Pin=J1-1
+Added Net: Name=V_Cargador
+Added Member To Class: ClassName=BottomBoard Member=Component BT1 BK-18650-PC6
+Added Member To Class: ClassName=BottomBoard Member=Component J1 PJ-102AH
+Added Member To Class: ClassName=BottomBoard Member=Component J2 PIN HEADER 2x1
