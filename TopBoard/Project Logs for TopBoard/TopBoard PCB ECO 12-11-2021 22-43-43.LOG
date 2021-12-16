@@ -1,8 +1,0 @@
-Change Component Designator: OldDesignator=J? NewDesignator=J3
-Added Pin To Net: NetName=RXD0 Pin=MD1-34
-Added Net: Name=RXD0
-Added Pin To Net: NetName=RXD Pin=MD1-35
-Added Pin To Net: NetName=RXD Pin=U1-3
-Added Net: Name=RXD
-Added Pin To Net: NetName=TXD Pin=U1-2
-Added Net: Name=TXD

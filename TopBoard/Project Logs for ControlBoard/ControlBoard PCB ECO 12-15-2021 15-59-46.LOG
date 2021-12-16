@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=RX Pin=TP8-1
+Removed Member From Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=R10
+Removed Member From Class: ClassName=USBToTTL Member=TP7
+Removed Member From Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=TP11
+Removed Member From Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=TP13
+Removed Member From Class: ClassName=USBToTTL Member=TP13
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C6 06035C104JAT2A
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C7 06035C104JAT2A
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C8 22µF
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component R3 ERJ-3GEYJ102V
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component R5 12 kOhms
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component R7 470 Ohms
+Added Member To Class: ClassName=USBToTTL Member=Component R9 12 kOhms
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP4 Test point
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP6 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP9 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP10 Test point

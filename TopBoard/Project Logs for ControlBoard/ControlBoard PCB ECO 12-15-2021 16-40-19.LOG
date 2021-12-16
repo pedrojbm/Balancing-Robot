@@ -1,0 +1,25 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=TP12 NewDesignator=TP10
+Change Component Designator: OldDesignator=TP13 NewDesignator=TP11
+Change Component Designator: OldDesignator=TP? NewDesignator=TP7
+Change Component Designator: OldDesignator=TP? NewDesignator=TP8
+Change Component Designator: OldDesignator=TP? NewDesignator=TP9
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=NetQ2_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R9-1
+Added Net: Name=NetQ1_1
+Added Member To Class: ClassName=USBToTTL Member=Component C2 0.1uF
+Added Member To Class: ClassName=USBToTTL Member=Component D3 SMA 5.0V
+Added Member To Class: ClassName=USBToTTL Member=Component Q1 S8050
+Added Member To Class: ClassName=USBToTTL Member=Component R10 12 kOhms
+Added Member To Class: ClassName=USBToTTL Member=Component TP7 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP9 Test point

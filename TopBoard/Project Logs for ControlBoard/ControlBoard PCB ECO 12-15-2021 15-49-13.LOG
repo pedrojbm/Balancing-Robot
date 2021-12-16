@@ -1,0 +1,51 @@
+Removed Member From Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=C?
+Removed Member From Class: ClassName=Power Member=TP?
+Change Component Comment : Designator=C2 Old Comment=0.1uF New Comment=C0603C104K5RACTU
+Change Component Comment : Designator=R? Old Comment=1k1 New Comment=CRCW06031K10JNEA
+Change Component Comment : Designator=R? Old Comment=1k1 New Comment=CRCW06031K10JNEA
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=LS? NewDesignator=LS1
+Change Component Designator: OldDesignator=MD? NewDesignator=MD1
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP7
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP8
+Change Component Designator: OldDesignator=TP6 NewDesignator=TP9
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP10
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP11
+Change Component Designator: OldDesignator=TP10 NewDesignator=TP13
+Change Component Designator: OldDesignator=TP? NewDesignator=TP1
+Change Component Designator: OldDesignator=TP? NewDesignator=TP2
+Change Component Designator: OldDesignator=TP? NewDesignator=TP3
+Change Component Designator: OldDesignator=TP? NewDesignator=TP4
+Change Component Designator: OldDesignator=TP? NewDesignator=TP5
+Change Component Designator: OldDesignator=TP? NewDesignator=TP6
+Change Component Designator: OldDesignator=TP? NewDesignator=TP12
+Change component parameters: Designator = "J4" ("J4"); Footprint = "M20-9950245"; UniqueID = "\WRFDMLGN\JLVATZNN" ("\WRFDMLGN\JLVATZNN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetLS?_1 New Net Name=NetLS1_1
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR8_2
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component C1 100µF
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component R1 CRCW06031K10JNEA
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component R8 470 Ohms
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP1 Test point
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP2 Test point
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP3 Test point
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP5 Test point
+Added Member To Class: ClassName=ESP32, BUZZER, LED and Buttoms Member=Component TP6 Test point
+Added Member To Class: ClassName=Power Member=Component TP12 Test point
