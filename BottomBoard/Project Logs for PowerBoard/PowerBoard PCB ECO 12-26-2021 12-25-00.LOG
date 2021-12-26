@@ -1,0 +1,6 @@
+Added Component: Designator=J2(M20-9950245)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+11V1 Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Member To Class: ClassName=PowerBoard Member=Component J2 PIN HEADER 2x1

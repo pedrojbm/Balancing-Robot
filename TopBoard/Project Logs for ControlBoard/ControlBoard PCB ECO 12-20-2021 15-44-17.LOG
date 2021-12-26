@@ -1,0 +1,27 @@
+Removed Member From Class: ClassName=Power Member=TP?
+Removed Member From Class: ClassName=USBToTTL Member=TP?
+Change Component Designator: OldDesignator=TP? NewDesignator=TP1
+Change Component Designator: OldDesignator=TP? NewDesignator=TP2
+Change Component Designator: OldDesignator=TP? NewDesignator=TP3
+Change Component Designator: OldDesignator=TP? NewDesignator=TP4
+Change Component Designator: OldDesignator=TP? NewDesignator=TP5
+Change Component Designator: OldDesignator=TP? NewDesignator=TP6
+Change Component Designator: OldDesignator=TP? NewDesignator=TP7
+Change Component Designator: OldDesignator=TP? NewDesignator=TP8
+Change Component Designator: OldDesignator=TP? NewDesignator=TP9
+Change Component Designator: OldDesignator=TP? NewDesignator=TP10
+Change Component Designator: OldDesignator=TP? NewDesignator=TP11
+Change Component Designator: OldDesignator=TP? NewDesignator=TP12
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Pin To Net: NetName=SCL Pin=R2-2
+Added Member To Class: ClassName=ESP32 Member=Component TP1 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP2 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP3 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP4 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP5 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP7 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP8 Test point
+Added Member To Class: ClassName=USBToTTL Member=Component TP9 Test point
+Added Member To Class: ClassName=Power Member=Component TP10 Test point
+Added Member To Class: ClassName=Power Member=Component TP11 Test point
+Added Member To Class: ClassName=Power Member=Component TP12 Test point

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+11V1 Pin=J4-3
+Removed Pin From Net: NetName=GND Pin=J4-4
+Removed Member From Class: ClassName=Power Member=J4
+Added Component: Designator=J?(M20-9950245)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=+11V1 Pin=J?-4
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Pin To Net: NetName=SCL Pin=R2-2
+Added Member To Class: ClassName=Power Member=Component J? PIN HEADER 2x1

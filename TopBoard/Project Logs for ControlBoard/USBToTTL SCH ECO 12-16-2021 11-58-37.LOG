@@ -1,0 +1,11 @@
+Update Managed Component C2 From CMP-2006-03061-2[0.1uF] To CMP-2006-03061-2[C0603C104K5RACTU] in USBToTTL.SchDoc
+Replace Part C3 Capacitor in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with Capacitor from Celestial Altium Library - altium_library.DbLib
+Update Managed Component D? From CMP-2000-07090-1[SMAJ5.0A] To CMP-2000-07090-1[SMAJ5.0A] in USBToTTL.SchDoc
+Update Managed Component D? From CMP-2000-05378-1[USBLC6-2SC6] To CMP-2000-05378-1[USBLC6-2SC6] in USBToTTL.SchDoc
+Replace Part J3 10103594-0001LF in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with 10103594-0001LF from TopBoardLib.SCHLIB
+Replace Part R9 Resistor in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with Resistor from Celestial Altium Library - altium_library.DbLib
+Replace Part R10 Resistor in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with Resistor from Celestial Altium Library - altium_library.DbLib
+Replace Part TP7 TestPoint in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with TestPoint from TopBoardLib.SCHLIB
+Replace Part TP8 TestPoint in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with TestPoint from TopBoardLib.SCHLIB
+Replace Part TP? TestPoint in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with TestPoint from TopBoardLib.SCHLIB
+Replace Part U1 CH340C in C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\TopBoard\SCH\USBToTTL.SchDoc with CH340C from TopBoardLib.SCHLIB

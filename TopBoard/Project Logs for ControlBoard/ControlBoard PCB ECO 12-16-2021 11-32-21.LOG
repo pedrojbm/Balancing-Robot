@@ -1,0 +1,105 @@
+Removed Pin From Net: NetName=D_P Pin=D2-1
+Removed Pin From Net: NetName=GND Pin=D2-2
+Removed Pin From Net: NetName=D_N Pin=D2-3
+Removed Pin From Net: NetName=D_N Pin=D2-4
+Removed Pin From Net: NetName=5V_USB Pin=D2-5
+Removed Pin From Net: NetName=D_P Pin=D2-6
+Removed Pin From Net: NetName=GND Pin=D3-A
+Removed Pin From Net: NetName=5V_USB Pin=D3-K
+Removed Pin From Net: NetName=5V_USB Pin=J3-1
+Removed Pin From Net: NetName=D_N Pin=J3-2
+Removed Pin From Net: NetName=D_P Pin=J3-3
+Removed Pin From Net: NetName=D_P Pin=TP9-1
+Removed Member From Class: ClassName=USBToTTL Member=D2
+Removed Member From Class: ClassName=USBToTTL Member=D3
+Removed Member From Class: ClassName=USBToTTL Member=TP9
+Added Component: Designator=D?(STM-SOT23-6L_V)
+Add component (AddParameter): Name = "Capacitance Value"; Value = "3.5pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clamping Voltage"; Value = "17V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clamping Voltage (Max)"; Value = "17V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5, 10/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Direction Type"; Value = "Uni-Directional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current"; Value = "0.15uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Leakage Current (Max)"; Value = "0.15uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.st.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Elements"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-40Cto125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Classification"; Value = "Automotive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max Deg. C"; Value = "125C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min Deg. C"; Value = "-40C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOT-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "6-Pin Small Outline Transistor, Body 2.925 x 1.625 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOT23-6L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Pulse Current"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "Uni-Directional"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Depth (mm)"; Value = "1.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height (mm)"; Value = "1.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Length (mm)"; Value = "3.05mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rad Hardened"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Breakdown Voltage"; Value = "6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Stand-off Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Suppressor Type"; Value = "DiodeArrays"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current (It)"; Value = "1mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage (Max)"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=D?(BOUR-SMA-2_V)
+Add component (AddParameter): Name = "Applications"; Value = "GeneralPurpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Bidirectional Channels"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance @ Frequency"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Catalog Drawings"; Value = "SMAJSeriesFootprintSMAJ,SMBJSeries"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "CircuitProtection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Peak Pulse (10/1000µs)"; Value = "43.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/25624/0900766b8112213b-25624680.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "08/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EDA / CAD Models"; Value = "DownloadfromAcceleratedDesigns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "TVS-Diodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Featured Product"; Value = "SMAJ/SMBJ/SMCJ/SMLJDiscreteTVSDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.bourns.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "SMAJSeries"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C~150°C(TJ)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "SMAJ5.0ABDKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "DO-214AC,SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 4.315 x 2.605 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SMA-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Digi-Reel®"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power - Peak Pulse"; Value = "400W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Line Protection"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Information"; Value = "SMAJSeriesMaterialDeclaration"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "SMAJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "SMA(DO-214AC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Zener"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unidirectional Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "6.4V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "9.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TestPoint)
+Added Pin To Net: NetName=D_N Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=5V_USB Pin=D?-2
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Pin To Net: NetName=D_P Pin=D?-3
+Added Pin To Net: NetName=D_P Pin=TP?-1
+Added Pin To Net: NetName=NetD?_4 Pin=D?-4
+Added Pin To Net: NetName=NetD?_4 Pin=J3-3
+Added Net: Name=NetD?_4
+Added Pin To Net: NetName=NetD?_5 Pin=D?-5
+Added Pin To Net: NetName=NetD?_5 Pin=J3-1
+Added Net: Name=NetD?_5
+Added Pin To Net: NetName=NetD?_6 Pin=D?-6
+Added Pin To Net: NetName=NetD?_6 Pin=J3-2
+Added Net: Name=NetD?_6
+Added Member To Class: ClassName=Motor Drivers A4988 Member=Component C? 100µF
+Added Member To Class: ClassName=USBToTTL Member=Component D? USBLC6-2SC6
+Added Member To Class: ClassName=USBToTTL Member=Component D? SMAJ5.0A
+Added Member To Class: ClassName=USBToTTL Member=Component TP? Test point

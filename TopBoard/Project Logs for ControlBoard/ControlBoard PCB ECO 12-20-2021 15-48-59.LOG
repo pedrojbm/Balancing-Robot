@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Pin To Net: NetName=SCL Pin=R2-2
+Added Pin To Net: NetName=+3V3 Pin=TP1-1
+Added Pin To Net: NetName=IO0 Pin=TP2-1
+Added Pin To Net: NetName=EN Pin=TP3-1
+Added Pin To Net: NetName=SDA Pin=TP4-1
+Added Pin To Net: NetName=SCL Pin=TP5-1
+Added Pin To Net: NetName=ESP32_TX Pin=TP6-1
+Added Pin To Net: NetName=ESP32_RX Pin=TP7-1
+Added Pin To Net: NetName=GND Pin=TP8-1
+Added Pin To Net: NetName=+3V3 Pin=TP9-1
+Added Pin To Net: NetName=+11V1 Pin=TP10-1
+Added Pin To Net: NetName=+3V3 Pin=TP11-1
+Added Pin To Net: NetName=GND Pin=TP12-1

@@ -1,0 +1,43 @@
+Removed Member From Class: ClassName=ESP32 Member=C?
+Removed Member From Class: ClassName=Buttons, Buzzer & LEDs Member=R?
+Change Component Footprint: Designator=U4 Old Footprint=DCY0004A_N New Footprint=DCY0004A_N
+Change Component Footprint: Designator=C2 Old Footprint=FP-C0603C-CF-MFG New Footprint=FP-C0603C-CF-MFG
+Change Component Footprint: Designator=MD? Old Footprint=FP-ESP32-WROOM-32D-MFG New Footprint=FP-ESP32-WROOM-32D-MFG
+Change Component Footprint: Designator=C? Old Footprint=FP-GRM18-0_1-MFG New Footprint=FP-GRM18-0_1-MFG
+Change Component Footprint: Designator=C? Old Footprint=FP-GRM18-0_1-MFG New Footprint=FP-GRM18-0_1-MFG
+Change Component Footprint: Designator=C? Old Footprint=FP-GRM18-0_1-MFG New Footprint=FP-GRM18-0_1-MFG
+Change Component Footprint: Designator=R? Old Footprint=RESC1608X55X30NL15T15 New Footprint=RESC1608X55X30NL15T15
+Change Component Footprint: Designator=R? Old Footprint=RESC1608X55X30NL15T15 New Footprint=RESC1608X55X30NL15T15
+Change Component Footprint: Designator=D1 Old Footprint=STM-SOT23-6L_V New Footprint=STM-SOT23-6L_V
+Change Component Footprint: Designator=SW1 Old Footprint=TECO-FSMSMTR_V New Footprint=TECO-FSMSMTR_V
+Change Component Footprint: Designator=SW2 Old Footprint=TECO-FSMSMTR_V New Footprint=TECO-FSMSMTR_V
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=MD? NewDesignator=MD1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=TP? NewDesignator=TP1
+Change Component Designator: OldDesignator=TP? NewDesignator=TP2
+Change Component Designator: OldDesignator=TP? NewDesignator=TP3
+Change Component Designator: OldDesignator=TP? NewDesignator=TP4
+Change Component Designator: OldDesignator=TP? NewDesignator=TP5
+Change Component Designator: OldDesignator=TP? NewDesignator=TP6
+Added Pin To Net: NetName=+3V3 Pin=R1-2
+Added Pin To Net: NetName=+3V3 Pin=R2-2
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD3_1
+Added Member To Class: ClassName=ESP32 Member=Component C1 ALUM 100uF
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C6 100nF
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C7 100nF
+Added Member To Class: ClassName=Screen, IMU and IR Member=Component C8 22uF
+Added Member To Class: ClassName=ESP32 Member=Component R2 4k7
+Added Member To Class: ClassName=Buttons, Buzzer & LEDs Member=Component R5 1k
+Added Member To Class: ClassName=ESP32 Member=Component TP1 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP2 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP3 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP5 Test point
+Added Member To Class: ClassName=ESP32 Member=Component TP6 Test point

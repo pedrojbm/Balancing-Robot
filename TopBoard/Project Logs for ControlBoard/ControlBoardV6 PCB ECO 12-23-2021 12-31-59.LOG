@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=SDA Pin=MD1-33
+Removed Pin From Net: NetName=SCL Pin=MD1-36
+Removed Pin From Net: NetName=SDA Pin=R1-2
+Removed Pin From Net: NetName=SCL Pin=R2-2
+Added Pin To Net: NetName=SDA Pin=MD1-18
+Added Pin To Net: NetName=SCL Pin=MD1-19
+Added Pin To Net: NetName=SCL Pin=R1-2
+Added Pin To Net: NetName=SDA Pin=R2-2
+Added Room: Name=Buttons, Buzzer & LEDs
+Added Room: Name=ESP32
+Added Room: Name=Motor Drivers A4988
+Added Room: Name=Power
+Added Room: Name=Screen, IMU and IR
+Added Room: Name=USBToTTL

@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=EN NewDesignator=SW2
+Change Component Designator: OldDesignator=IO1 NewDesignator=SW1
+Change Component Library : Designator=LS1 Old Library=board_guarreta_V00.SCHLIB New Library=ControlBoard.SCHLIB
+Added Room: Name=Buttons, Buzzer & LEDs
+Added Room: Name=ESP32
+Added Room: Name=Motor Drivers A4988
+Added Room: Name=Power
+Added Room: Name=Screen, IMU and IR
+Added Room: Name=USBToTTL

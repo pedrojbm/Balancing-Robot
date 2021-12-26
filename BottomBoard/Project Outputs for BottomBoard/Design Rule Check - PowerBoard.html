@@ -1,0 +1,357 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12/26/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:18:39</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc" class="file"><acronym title="C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc">C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">7</td></tr>
+</table>
+</td>
+</table><a name="IDV0KVPLU42IFWGYNB2FKYZY0L0NIG4EHKNZU2YQ2OF0XS2J2MACJ"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTQW1SNUDRJBHIMZB2EAQUYIBEDEGW0N4HYOCVSMA20XLRQ4P2F0">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGXDRN12ET0IGCS0UP2H1MRZORGZU2SVED2PIX2CBEDX01NP4VMPL">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIBVT2JJMJGRGGF0RW5JJ3VBWGFVGEB4ZQBGYXVJSO2X2BSLGJMIO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBD3GC0ABJO12BDKJKXA5OLS3Z3IFESVKITSJF1H20OJTNC2DZG">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4GJQJVH14TM2MOV2JANHSFM1BGJEFCJF20R4AWONKK4J2QIIUIBE">Width Constraint (Min=10mil) (Max=90mil) (Preferred=90mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5DSIDLHCUF0MJOKXKFGZO224UDX3MXYS2YSSKUGMEYXLZQI4ICBP">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKKEKQNHEUKLNLZMKZ4OW5Y2T2FAESL5P1WZA51FAT1EJXJHMSOPK">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCOLULL55FDNTDDRIN2BI1W52XMSE5PWHYLT2C3LMGLHENZVPKI4H">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAGTBIB2CDDAZPPNLVKTTJVEPYCVPKCE5Y5G0G5EKFDWXWIDHGAEE">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGCCDYUVZGGYZNAAFVT5QH5DVUBSBC3LXAWKCEQISLH1XMEV1ASLE">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFOMXIRF45OQCFAJQF4YRPT5TMLOQKVAGW1R5NYEUJCFXSHC3H0D">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDT0PEQRZPNQXFOUYS500NVMPRFJKTCYKE0BGL2ELT4EBBTJNC4SXO">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKXTM25QIYNQTJ3DVMH5I1PCMTFTCC4RJJCSYM4NH2JBPYZ3F05SM">Room PowerBoard (Bounding Region = (1300mil, 941mil, 5500mil, 3555mil) (InComponentClass('PowerBoard'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5R20YZICM33ZIXHE0XFGIEKB3P2POE33SGYZ3EJOS4EFI2AC2OSC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">7</td>
+</tr>
+</table><br><a name="IDKKEKQNHEUKLNLZMKZ4OW5Y2T2FAESL5P1WZA51FAT1EJXJHMSOPK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2471.217mil|Location2.X=2607.899mil|Location1.Y=2793.115mil|Location2.Y=2929.797mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2471.217mil|Location2.X=2607.899mil|Location1.Y=2793.115mil|Location2.Y=2929.797mil|Absolute=True">Hole Size Constraint: (135.432mil &gt; 100mil) Pad Free-1(1073.558mil,1652.456mil) on Multi-Layer Actual Hole Size = 135.432mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3366.887mil|Location2.X=3503.569mil|Location1.Y=1415.161mil|Location2.Y=1551.843mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3366.887mil|Location2.X=3503.569mil|Location1.Y=1415.161mil|Location2.Y=1551.843mil|Absolute=True">Hole Size Constraint: (135.432mil &gt; 100mil) Pad Free-1(1969.228mil,274.502mil) on Multi-Layer Actual Hole Size = 135.432mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4262.555mil|Location2.X=4399.237mil|Location1.Y=2793.115mil|Location2.Y=2929.797mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4262.555mil|Location2.X=4399.237mil|Location1.Y=2793.115mil|Location2.Y=2929.797mil|Absolute=True">Hole Size Constraint: (135.432mil &gt; 100mil) Pad Free-1(2864.896mil,1652.456mil) on Multi-Layer Actual Hole Size = 135.432mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFOMXIRF45OQCFAJQF4YRPT5TMLOQKVAGW1R5NYEUJCFXSHC3H0D"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1770.369mil|Location2.X=1781.619mil|Location1.Y=2943.625mil|Location2.Y=2954.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1770.369mil|Location2.X=1781.619mil|Location1.Y=2943.625mil|Location2.Y=2954.875mil|Absolute=True">Silk To Silk Clearance Constraint: (9.5mil &lt; 10mil) Between Text "-" (270.007mil,1720.01mil) on Bottom Overlay And Text "+" (274.355mil,1623.032mil) on Bottom Overlay Silk Text to Silk Clearance [9.5mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1770.369mil|Location2.X=1781.619mil|Location1.Y=2943.625mil|Location2.Y=2954.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1770.369mil|Location2.X=1781.619mil|Location1.Y=2943.625mil|Location2.Y=2954.875mil|Absolute=True">Silk To Silk Clearance Constraint: (9.5mil &lt; 10mil) Between Text "-" (270.007mil,1720.01mil) on Top Overlay And Text "+" (274.355mil,1623.032mil) on Top Overlay Silk Text to Silk Clearance [9.5mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5018.269mil|Location2.X=5025.936mil|Location1.Y=2928.167mil|Location2.Y=2935.833mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5018.269mil|Location2.X=5025.936mil|Location1.Y=2928.167mil|Location2.Y=2935.833mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "-" (3534.355mil,1623.032mil) on Top Overlay And Track (3556.102mil,1494.685mil)(3556.102mil,1853.15mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1717.552mil|Location2.X=1728.802mil|Location1.Y=2926.375mil|Location2.Y=2937.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\pedro\Documents\Grado\Cuarto\TCI\Proyecto_robot\Proyecto\Balancing-Robot\BottomBoard\PCB\PowerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1717.552mil|Location2.X=1728.802mil|Location1.Y=2926.375mil|Location2.Y=2937.625mil|Absolute=True">Silk To Silk Clearance Constraint: (9.355mil &lt; 10mil) Between Text "+" (274.355mil,1623.032mil) on Top Overlay And Track (250mil,1600mil)(250mil,1800mil) on Top Overlay Silk Text to Silk Clearance [9.355mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=NetD1_4 New Net Name=DNP_N
+Change Net Name : Old Net Name=NetD1_6 New Net Name=DNP_P
+Added Differential Pair: Name=D
+Added Member To Class: ClassName=ESP32 Member=Component R1 4k7
+Added Member To Class: ClassName=ESP32 Member=Component R2 4k7

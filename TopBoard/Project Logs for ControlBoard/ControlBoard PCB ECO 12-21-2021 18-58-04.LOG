@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=+3V3 Pin=R1-2
+Added Pin To Net: NetName=+3V3 Pin=R2-2
+Change Net Name : Old Net Name=#EN New Net Name=EN

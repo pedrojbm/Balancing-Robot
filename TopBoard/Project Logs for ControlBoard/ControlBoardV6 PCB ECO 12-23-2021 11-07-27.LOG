@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=R? Old Footprint=RESC1608X55X30NL15T15 New Footprint=RESC1608X55X30NL15T15
+Change Component Footprint: Designator=R? Old Footprint=RESC1608X55X30NL15T15 New Footprint=RESC1608X55X30NL15T15
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Added Member To Class: ClassName=ESP32 Member=Component R1 4k7

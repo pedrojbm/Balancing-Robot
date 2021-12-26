@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=D2_EN Pin=MD1-27
+Removed Pin From Net: NetName=D2_DIR Pin=MD1-28
+Added Pin To Net: NetName=D2_DIR Pin=MD1-27
+Added Pin To Net: NetName=D2_EN Pin=MD1-28
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Pin To Net: NetName=SCL Pin=R2-2
