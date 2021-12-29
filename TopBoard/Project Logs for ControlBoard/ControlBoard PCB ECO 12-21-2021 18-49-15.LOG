@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=D2_STEP Pin=MD1-26
-Removed Pin From Net: NetName=D2_DIR Pin=MD1-27
-Added Pin To Net: NetName=D2_DIR Pin=MD1-26
-Added Pin To Net: NetName=D2_STEP Pin=MD1-27
-Added Pin To Net: NetName=+3V3 Pin=R1-2
-Added Pin To Net: NetName=+3V3 Pin=R2-2

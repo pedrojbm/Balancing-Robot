@@ -1,8 +1,0 @@
-Change Component Designator: OldDesignator=BT? NewDesignator=BT1
-Change component parameters: Designator = "J2" ("J2"); Footprint = "M20-9950245"; UniqueID = "\UJHYKNKA" ("\UJHYKNKA")
-Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.snapeda.com/parts/M20-9950245/Harwin/datasheet/"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
-Change Class Name : Old Net Name=BottomBoard New Net Name=PowerBoard
-Change Room Name: Old Name=BottomBoard New Name=PowerBoard
-Change Room Scope: Old Scope=InComponentClass('BottomBoard') New Scope=InComponentClass('PowerBoard')

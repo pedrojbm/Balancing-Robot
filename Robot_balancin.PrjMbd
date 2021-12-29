@@ -64,7 +64,24 @@ GenerateClassCluster=0
 DocumentUniqueId=420bfa27-3d95-475e-89de-0c88f4cb11d8
 
 [Document2]
-DocumentPath=BottomBoard\PowerBoard.PrjPcb
+DocumentPath=Robot_balancinMBA.MbaDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=7db35710-8f55-4fa9-8bfe-425c34283564
+
+[Document3]
+DocumentPath=ControlBoard\ControlBoard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -80,8 +97,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
-DocumentPath=TopBoard\ControlBoard.PrjPcb
+[Document4]
+DocumentPath=PowerBoard\PowerBoard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -99,19 +116,15 @@ DocumentUniqueId=
 
 [Parameter1]
 Name=Revision
-Value=V 0.6.2
+Value=V 0.6.2.1
 
 [Parameter2]
 Name=ProjectTitle
-Value=ProjectName
+Value=Balancing Robot
 
 [Parameter3]
 Name=Date
-Value=26/12/2021
-
-[Parameter4]
-Name=Author
-Value=Pedro Javier Belmonte Miñano
+Value=29/12/2021
 
 [OutputGroup1]
 Name=Netlist Outputs

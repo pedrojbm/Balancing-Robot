@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=IR_SIG Pin=MD1-29
-Added Pin To Net: NetName=IR_SIG Pin=MD1-23
-Added Pin To Net: NetName=+3V3 Pin=R1-2
-Added Pin To Net: NetName=+3V3 Pin=R2-2
