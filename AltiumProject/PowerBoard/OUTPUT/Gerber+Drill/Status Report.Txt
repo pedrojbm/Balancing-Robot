@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [PowerBoard.PrjPcb]
+   Generated File[Bill of Materials-PowerBoard.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 20:32:08 On 15/01/2022

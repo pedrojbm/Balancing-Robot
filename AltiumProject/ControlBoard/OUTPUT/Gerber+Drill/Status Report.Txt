@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [ControlBoardV6.2.PcbDoc]
+   Generated File[Pick Place for ControlBoardV6.2.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 20:41:58 On 15/01/2022

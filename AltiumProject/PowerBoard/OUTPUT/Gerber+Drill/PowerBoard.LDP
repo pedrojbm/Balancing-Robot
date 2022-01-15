@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\Documents\Balancing-Robot\AltiumProject\PowerBoard\PCB\PowerBoard.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=powerboard-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=powerboard-slotholes.txt|DrillLayers=gtl,gbl
