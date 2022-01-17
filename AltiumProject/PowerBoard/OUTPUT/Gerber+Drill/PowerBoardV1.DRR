@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PowerBoardV1.PcbDoc   17/01/2022  0:04:18
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PowerBoardV1-RoundHoles.TXT
+ASCII SlotHoles File : PowerBoardV1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      39mil (1.001mm)                                           Slot              3         PTH        1.00inch (25.51mm)
+T2      40mil (1.016mm)                                           Round             4         PTH        0.30inch (7.62mm)
+T3      63mil (1.6mm)                                             Round             6         PTH        8.78inch (223.00mm)
+T4      135mil (3.439mm)                                          Round             3         PTH        3.43inch (87.24mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              16
+
+Total Processing Time (hh:mm:ss) : 00:00:00

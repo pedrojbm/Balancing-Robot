@@ -1,10 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [PowerBoard.PrjPcb]
-   Generated File[Bill of Materials-PowerBoard.xlsx]
+Output: Test Point Report
+Type  : Test Points
+From  : Variant [[No Variations]] of PCB Document [PowerBoardV1.PcbDoc]
+   Generated File[Assembly Testpoint Report for PowerBoardV1.csv]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 20:32:08 On 15/01/2022
+Finished Output Generation At 0:04:18 On 17/01/2022

@@ -1,0 +1,68 @@
+Altium Designer Pick and Place Locations
+E:\Documents\Balancing-Robot\AltiumProject\ControlBoard\OUTPUT\Gerber+Drill\Pick Place for ControlBoardV1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       16/01/22
+Time:       23:58
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"C1","ALUM 100uF","TopLayer","CAP_ALSMD_POLY_5.3MM_H6.1MM","5135.000","4445.000","270","CAP ALUM 100UF 4V 2000H"
+"C2","0.1µF","TopLayer","FP-C0603C-CF-MFG","6985.000","3995.000","90","CAP CER 0.1UF 50V X7R 0603"
+"C3","1µF","TopLayer","CAP_0603_1608","6905.000","3678.426","270","CAP CER 0603 1UF 16V X7R 10%"
+"C4","ALUM 100uF","TopLayer","CAP_ALSMD_POLY_5.3MM_H6.1MM","7525.000","4285.000","0","CAP ALUM 100UF 4V 2000H"
+"C5","ALUM 100uF","TopLayer","CAP_ALSMD_POLY_5.3MM_H6.1MM","4105.000","4285.000","180","CAP ALUM 100UF 4V 2000H"
+"C6","100nF","BottomLayer","FP-GRM18-0_1-MFG","5705.000","3165.000","180","CAP CER 0.1UF 6.3V X7R 0603"
+"C7","100nF","TopLayer","FP-GRM18-0_1-MFG","5445.000","3245.000","0","CAP CER 0.1UF 6.3V X7R 0603"
+"C8","22uF","TopLayer","CAP_0603_1608","5445.000","3175.000","180","CAP CER 22UF 4V X5R 0603"
+"C9","100nF","BottomLayer","FP-GRM18-0_1-MFG","6565.000","3135.000","180","CAP CER 0.1UF 6.3V X7R 0603"
+"D1","USBLC6-2SC6","TopLayer","STM-SOT23-6L_V","7185.000","4505.000","90","Very low capacitance ESD protection, 3.5 pF, -40 to 125 degC, 6-Pin SOT23, RoHS, Tape and Reel"
+"D3","Blue","TopLayer","LED_0603_1608_BLUE","6305.000","3695.000","0","LED BLUE 0603 SMD"
+"J1","USB Micro B 2.0","TopLayer","AMPHENOL_10103594-0001LF","7185.000","4740.275","180","USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
+"J2","PIN HEADER 4x1","TopLayer","HDRV4W50P0X200_1X4_800X200X525P","4245.630","3245.000","0","Connector"
+"J3","PIN HEADER 4x1","TopLayer","HDRV4W50P0X200_1X4_800X200X525P","7394.370","3245.000","0","Connector"
+"J5","SSD1306_OLED_HDR","TopLayer","OLED_guarreta","5795.000","3255.000","270","CONN HDR 4POS 0.1 TIN PCB"
+"J6","IMU_10DOF_HDR","BottomLayer","IMU_GUARRETA","5795.000","3055.000","270","CONN HDR 10POS 0.1 TIN PCB"
+"J7","IRREMOTE_HDR","TopLayer","IRremote_guarreta","6665.000","3045.000","270","CONN HDR 3POS 0.1 GOLD PCB"
+"L1","WS2812B","TopLayer","WS2812B","4040.664","4783.769","0",""
+"L2","WS2812B","TopLayer","WS2812B","4040.664","3055.000","180",""
+"L3","WS2812B","TopLayer","WS2812B","7575.000","3055.000","180",""
+"L4","WS2812B","TopLayer","WS2812B","7575.000","4783.769","180",""
+"LS1","KXG1205","TopLayer","BUZZER","4892.953","3615.000","270",""
+"MD1","ESP32-WROOM-32D","TopLayer","FP-ESP32-WROOM-32D-MFG","5845.000","4244.902","0","WIFI MODULE 32MBITS SPI FLASH"
+"Q1","S8050","TopLayer","SOT95P240X115-3N","6955.000","3835.000","0","Transistor"
+"Q2","S8050","TopLayer","SOT95P240X115-3N","6595.000","3835.000","180","Transistor"
+"R3","12k","TopLayer","RES_0603_1608","6775.000","3875.000","0","RES 12K OHM 5% 1/10W 0603"
+"R4","12k","TopLayer","RES_0603_1608","6775.000","3795.000","0","RES 12K OHM 5% 1/10W 0603"
+"R5","1k","BottomLayer","RES_0603_1608","5215.000","3705.000","90","RES SMD 1K OHM 1% 1/4W 0603"
+"R6","","TopLayer","0805","4045.000","4557.000","90","Resistor"
+"R7","12k","TopLayer","RES_0603_1608","6505.000","4675.000","180","RES 12K OHM 5% 1/10W 0603"
+"R8","12k","TopLayer","RES_0603_1608","5185.000","4685.000","0","RES 12K OHM 5% 1/10W 0603"
+"R9","470","TopLayer","RES_0603_1608","6175.000","3695.000","0","RES 470 OHM 5% 1/10W 0603"
+"R10","470","TopLayer","RES_0603_1608","6385.000","4675.000","180","RES 470 OHM 5% 1/10W 0603"
+"R11","470","TopLayer","RES_0603_1608","5305.000","4685.000","0","RES 470 OHM 5% 1/10W 0603"
+"SW1","FSMSMTR","TopLayer","TECO-FSMSMTR_V","6442.952","4795.000","0","FSMSM Push Button Switch, 50 mA, -35 to 85 degC, 2-Pin SMD, RoHS, Tape and Reel"
+"SW2","FSMSMTR","TopLayer","TECO-FSMSMTR_V","5245.000","4795.000","180","FSMSM Push Button Switch, 50 mA, -35 to 85 degC, 2-Pin SMD, RoHS, Tape and Reel"
+"U1","CH340C","TopLayer","SOIC127P600X180-16N","6815.000","4235.000","270","USB to serial chip CH340"
+"U2","A4988","TopLayer","A4988","4265.000","3755.000","0","Pololu A4988 Stepper Motor Driver Carrier"
+"U3","A4988","TopLayer","A4988","7365.000","3755.000","0","Pololu A4988 Stepper Motor Driver Carrier"
+"U4","LM1117IMP-3.3/NOPB","BottomLayer","DCY0004A_N","4675.000","4605.000","0","800mA Low-Dropout Linear Regulator, 4-pin SOT-223, Pb-Free"
+"J4","PIN HEADER 2x1","TopLayer","M20-9950245","4305.000","4645.000","0","M20-9950245 Pin Connector"
+"TP12","Test point","BottomLayer","TestPoint","4455.000","4455.000","90",""
+"TP11","Test point","BottomLayer","TestPoint","4865.000","4315.000","90",""
+"TP3","Test point","TopLayer","TestPoint","5375.000","4455.000","90",""
+"TP9","Test point","TopLayer","TestPoint","6565.000","4435.000","90",""
+"TP8","Test point","TopLayer","TestPoint","7065.000","4275.000","90",""
+"TP10","Test point","BottomLayer","TestPoint","4685.000","4355.000","90",""
+"TP1","Test point","TopLayer","TestPoint","5375.000","4539.586","90",""
+"TP6","Test point","TopLayer","TestPoint","6275.000","4455.000","90",""
+"TP7","Test point","TopLayer","TestPoint","6275.000","4375.000","90",""
+"TP5","Test point","TopLayer","TestPoint","5845.000","3815.000","90",""
+"TP4","Test point","TopLayer","TestPoint","5765.000","3815.000","90",""
+"TP2","Test point","TopLayer","TestPoint","6295.000","3825.000","90",""
+"R2","4k7","TopLayer","RESC1608X55X30NL15T15","5665.472","3815.000","0","Precision Thick Film Chip Resistor, 4.7 KOhm, +/- 1%, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"
+"R1","4k7","TopLayer","RESC1608X55X30NL15T15","5935.000","3815.000","180","Precision Thick Film Chip Resistor, 4.7 KOhm, +/- 1%, -55 to 155 degC, 0603 (1608 Metric), RoHS, Tape and Reel"

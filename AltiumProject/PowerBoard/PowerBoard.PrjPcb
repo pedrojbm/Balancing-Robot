@@ -132,7 +132,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UYNKTZHP
 
 [Document6]
-DocumentPath=PCB\PowerBoard.PcbDoc
+DocumentPath=PCB\PowerBoardV1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -146,10 +146,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IDGGEJAJ
+DocumentUniqueId=LNBDJTKP
 
 [Document7]
-DocumentPath=OUTPUT\Gerber+Drill\CAMtasticPowerBoard.Cam
+DocumentPath=OUTPUT\Gerber+Drill\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -166,124 +166,272 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=OUTPUT\Gerber+Drill\Bill of Materials-PowerBoard.xlsx
+DocumentPath=OUTPUT\Gerber+Drill\Assembly Testpoint Report for PowerBoard.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard-RoundHoles.TXT
+DocumentPath=OUTPUT\Gerber+Drill\Assembly Testpoint Report for PowerBoardV1.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard-SlotHoles.TXT
+DocumentPath=OUTPUT\Gerber+Drill\Bill of Materials-PowerBoard.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.1
+DocumentPath=OUTPUT\Gerber+Drill\Pick Place for PowerBoard.txt
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.DRR
+DocumentPath=OUTPUT\Gerber+Drill\Pick Place for PowerBoardV1.txt
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.EXTREP
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBL
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBO
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBP
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBS
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GKO
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM1
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM3
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM5
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM13
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM15
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM20
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM21
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GML
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTL
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTO
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTP
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GM21
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTS
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GML
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.LDP
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.REP
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument26]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
 DocumentPath=OUTPUT\Gerber+Drill\PowerBoard.RUL
 DItemRevisionGUID=
 
+[GeneratedDocument31]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.1
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM21
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM23
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GM24
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GML
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=OUTPUT\Gerber+Drill\PowerBoardV1.RUL
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Author
-Value=Pedro Javier Belmoonte Miñano
+Name=Revision
+Value=V 1
 
 [Parameter2]
-Name=Date
-Value=29/12/2021
-
-[Parameter3]
 Name=ProjectTitle
 Value=Balancing Robot
 
+[Parameter3]
+Name=Date
+Value=16/01/2022
+
 [Parameter4]
-Name=Revision
-Value=V 1
+Name=Author
+Value=Pedro Javier Belmoonte Miñano
 
 [Configuration1]
 Name=Sources

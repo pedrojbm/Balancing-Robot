@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ControlBoardV1.PcbDoc   16/01/2022  23:58:13
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ControlBoardV1-RoundHoles.TXT
+ASCII SlotHoles File : ControlBoardV1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      26mil (0.65mm)                                            Slot              2         PTH        0.41inch (10.52mm)
+T2      28mil (0.701mm)                                           Slot              2         PTH        0.47inch (11.92mm)
+T3      28mil (0.711mm)                                           Round             46        PTH        16.65inch (422.95mm)
+T4      30mil (0.762mm)                                           Round             10        PTH        0.90inch (22.86mm)
+T5      35mil (0.899mm)                                           Round             8         PTH        3.38inch (85.98mm)
+T6      40mil (1.016mm)                                           Round             4         PTH        0.30inch (7.62mm)
+T7      40mil (1.021mm)                                           Round             32        PTH        6.40inch (162.56mm)
+T8      43mil (1.1mm)                                             Round             9         PTH        2.13inch (54.13mm)
+T9      135mil (3.439mm)                                          Round             2         PTH        1.79inch (45.50mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              115
+
+Two holes at same point : 1
+-----------------------
+4765,3615
+
+Total Processing Time (hh:mm:ss) : 00:00:00

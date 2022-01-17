@@ -1,0 +1,17 @@
+Altium Designer Pick and Place Locations
+E:\Documents\Balancing-Robot\AltiumProject\PowerBoard\OUTPUT\Gerber+Drill\Pick Place for PowerBoardV1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       17/01/22
+Time:       00:04
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer       Footprint        Center-X(mil) Center-Y(mil) Rotation Description                                 
+P1         BMS3S10A         BottomLayer BMS              5672.890      3902.000      180      ""                                          
+J1         PJ-102AH         TopLayer    CUI_PJ-102AH     7500.480      4388.890      0        "CONN PWR JACK 2X5.5MM SOLDER"              
+J2         "PIN HEADER 2x1" TopLayer    M20-9950245      3993.000      4657.000      0        "M20-9950245 Pin Connector"                 
+BT1        BK-18650-PC6     TopLayer    BAT_BK-18650-PC6 5806.126      3920.000      0        "Battery Holder _Open_ 18650 3 Cell PC Pin" 

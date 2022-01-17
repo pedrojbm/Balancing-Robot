@@ -183,7 +183,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BZXVXDRQ
 
 [Document9]
-DocumentPath=PCB\ControlBoardV6.2.PcbDoc
+DocumentPath=PCB\ControlBoardV1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -197,10 +197,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=URKGPDBI
+DocumentUniqueId=LNBDJTKP
 
 [Document10]
-DocumentPath=..\LIB\ControlBoard.PcbLib
+DocumentPath=ControlBoard.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -234,7 +234,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XJGGPGZQ
 
 [Document12]
-DocumentPath=ControlBoard.PCBDwf
+DocumentPath=..\LIB\ControlBoard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -248,10 +248,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DQKEEPGA
 
 [Document13]
-DocumentPath=OUTPUT\Gerber+Drill\CAMtasticControlBoard.Cam
+DocumentPath=OUTPUT\Gerber+Drill\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -268,144 +268,164 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=OUTPUT\Gerber+Drill\Bill of Materials-ControlBoard.xlsx
+DocumentPath=OUTPUT\Gerber+Drill\Assembly Testpoint Report for ControlBoardV1.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2-RoundHoles.TXT
+DocumentPath=OUTPUT\Gerber+Drill\Bill of Materials-ControlBoard.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2-SlotHoles.TXT
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.1
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.DRR
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.EXTREP
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GBL
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GBO
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GBP
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GBS
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GKO
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM1
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM2
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM3
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM5
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM13
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM15
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM16
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM20
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM21
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM23
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GM24
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GML
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM21
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GTL
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM23
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GTO
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GM24
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GTP
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GML
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.GTS
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.LDP
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.REP
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV6.2.RUL
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=OUTPUT\Gerber+Drill\Pick Place for ControlBoardV6.2.csv
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=OUTPUT\Gerber+Drill\ControlBoardV1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=OUTPUT\Gerber+Drill\Pick Place for ControlBoardV1.csv
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=Pedro Javier Belmonte Miñano
+Name=Revision
+Value=V 1
 
 [Parameter2]
-Name=Date
-Value=29/12/2021
-
-[Parameter3]
 Name=ProjectTitle
 Value=Balancing Robot
 
+[Parameter3]
+Name=Date
+Value=16/01/2022
+
 [Parameter4]
-Name=Revision
-Value=V 1
+Name=Author
+Value=Pedro Javier Belmonte Miñano
 
 [Configuration1]
 Name=Sources
